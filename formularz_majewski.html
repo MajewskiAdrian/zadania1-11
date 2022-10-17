@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<title> ZADANIE FORMULARZ </title>
+	</head>
+	<body bgcolor="#5F9EA0">
+	<center><h1><font face="Verdana">Formularz zgłoszeniowy na dodatkowe zajęcia sportowe<h1></center><br><br></font>
+		<form enctype="text/plain" action="mailto:adrianmajewski084@gmail.com" subject="formularz_dane" method="Post">
+			<TABLE>
+			
+			<! 1 RZĄD >
+			
+			<TR height="100">
+			
+			<TD width="500">		<!Dane wpisywane 5 pozycji >
+				<font face="Verdana"><b>Imię </b> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp <input name="Imie" size="22"><br><br>
+				<b>Nazwisko </b> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  <input name="Nazwisko" size="22"> <br><br>
+				<b>E-mail</b>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input name="E-mail" size="22"><br><br>
+				<b>Nr. telefonu(max 9 cyfr)</b>&nbsp &nbsp &nbsp    <input name="Nr. tel." size="22" maxlength="9"><br><br>
+				<b>Adres zaieszkania</b>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input name="Adres" size="22"><br><br></font>
+			</TD>
+			
+			<TD width="300">			<! Lista rozwijana 4 pozycje >
+			
+				<center><font size="5" face="Verdana" color="black"><b>Podaj płeć</b> <br> <select>
+					<option name="Plec" value="Nie chce podawac">Nie chcę podawać</option>
+					<option name="Plec" value="Mezczyzna">Mężczyzna</option>
+					<option name="Plec" value="Kobieta">Kobieta</option> </select> </center></font>
+			</TD>
+			</TR> 
+			
+			
+			<! KONIEC 1 RZĘDU x >
+			
+			<! 2 RZĄD >
+			<TR>
+			
+			
+			<TD width="500">
+					<!Przyciski wyboru typu checkbox 5 pozycji >
+					<font size="5" face="Verdana"  color="black">  <b> Rodzaj transportu, którym<br> docierał/ała byś na zajęcia </b><br><br>
+					<input type="checkbox" name="Transport" value="Autobus"> Autobus <br><br>
+					<input type="checkbox" name="Transport" value="Tramwaj"> Tramwaj <br><br>
+					<input type="checkbox" name="Transport" value="Rower"> Rower <br><br>
+					<input type="checkbox" name="Transport" value="Samochod"> Samochód <br><br>
+					<input type="checkbox" name="Transport" value="Inny" maxlength="9"> Inne <br><br></font>
+			</TD>	
+		
+			<TD>
+			
+			<button onclick="alert('🏀')" style="height:80px;width:300px">Koszykówka</button> 
+			<button onclick="alert('⚽')" style="height:80px;width:300px">Piłka Nożna</button>
+			<button onclick="alert('🏐')" style="height:80px;width:300px">Siatkówka</button> 
+			<button onclick="alert('🤾‍♀️')" style="height:80px;width:300px">Piłka Ręczna</button> 
+			</TD>
+			</TR>
+			
+			
+			<! KONIEC 2 RZĘDU >
+			
+			
+			
+			<! 3 RZĄD >
+			<TR>
+			
+			<TD width="300">		<!Przyciski wyboru typu checkbox 4 pozycje >	
+			
+				<font size="5" color="black" face="Verdana"> <b> Jakie sporty cie interesują? </b><br><br>
+				<input type="checkbox" name="Sport" value="Koszykowka"> Koszykówka <br><br>
+				<input type="checkbox" name="Sport" value="Pilka nozna"> Piłka nożna <br><br>
+				<input type="checkbox" name="Sport" value="Pilka reczna"> Piłka ręczna <br><br>
+				<input type="checkbox" name="Sport" value="Siatkowka"> Siatkówka <br><br></font>
+			</TD>
+			
+			<TD> <! Lista rozwijana 4 pozycje >
+			
+				<font size="5" face="Verdana" color="black"><b>Ile razy w tygodniu chciałbyś trenować</b> <br> <select>
+				<option name="Ilosc treniningow" value="1 raz w tygodniu">1 raz w tygodniu</option>
+				<option name="Ilosc treniningow" value="2 razy w tygodniu">2 razy w tygodniu</option>
+				<option name="Ilosc treniningow" value="3 razy w tygodniu">3 razy w tygodniu</option>
+				<option name="Ilosc treniningow" value="4 razy w tygodniu">4 razy w tygodniu</option> </select> </center></font>
+			</TD>
+			</TR>			
+			
+			
+			<! KONIEC RZĘDU 3 >
+			
+			<! RZĄD 4 >
+			<TR>
+		
+			
+			<TD>
+				<align="left"> <font face="Verdana"> <nobr><b>Napisz dlaczego chcesz <br>się zapsać <br>(max 150 znaków)</b></nobr>  <br><br>
+					<input name="Dlaczego chcesz sie zapisac" size="35" maxlength="150"> </center></font>				
+			</TD>
+			<TD>
+			<font size="5" color="black" face="Verdana"> <b> Jak oceniesz swoje umiejętności sportowe </b><br><br>
+				<input type="radio" name="Ocena umiejetnosci" value="Wspanmiale"> wspanmiałe <br><br>
+				<input type="radio" name="Ocena umiejetnosci" value="Bardzo dobre"> bardzo dobre <br><br>
+				<input type="radio" name="Ocena umiejetnosci" value="Srednie"> średnie <br><br>
+				<input type="radio" name="Ocena umiejetnosci" value="Slabe"> słabe <br><br></font>
+			
+			</TR>			
+			
+			
+			<! KONIEC RZĘDU 4 >
+			
+			<! RZĄD 5 >
+			<TR>
+			
+			<td>
+			</td>
+			
+			<TD>
+			<font size="5" color="black" face="Verdana"> <b> Czy odżywiasz się zdrowo? </b><br><br>
+				<input type="radio" name="Zdrowe odzywianie" value="Tak"> Tak 
+				<input type="radio" name="Zdrowe odzywianie" value="Nie"> Nie 
+				<input type="radio" name="Zdrowe odzywianie" value="Nie wiem"> Nie wiem </font>
+			</TD>
+			</TR>
+			
+			
+			<! KONIEC RZĘDU 5 >
+			
+			<! RZĄD 6 >
+			<TR>
+			
+			<TD>
+			<nobr><input type="reset" value="Reset" style="height:40px; width:150px">
+			</TD>
+			
+			<TD> 
+			<input type="submit" value"="Wyślij" style="height:40px; width:150px"> 
+			</TD>
+			
+			<TD>
+			<b>Hasło</b><br><input type="password" name="Haslo" size="22">
+			</TD>
+			
+			</TR>
+			
+			<! KONIEC RZĘDU 6 >
+			</TABLE>
+		</form>
+		<br><br><br>
+		<A HREF="index.html"> wróć </A>
+	</body>
+	</html>
+		
+		
